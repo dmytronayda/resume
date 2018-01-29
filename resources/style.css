@@ -1,0 +1,108 @@
+html,
+body {
+  line-height: 1.4;
+  word-wrap: break-word;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #FAFAFA;
+  height: 7.25rem;
+  border-bottom: .3px solid #D7D7D7;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0.8rem;
+}
+
+.logo-and-search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img{
+  max-width: 7.5rem;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  border: 0.4px solid #B6B6B6;
+  width: 31.9375rem;
+  padding: 0.6rem 0.6rem;
+  margin-left: 0.6rem;
+  box-shadow: 0px 3px 10px 1px #C9C9C9;
+  border-radius: 2px;
+  background-color: white;
+}
+
+.icons {
+  display: flex;
+  color: #528EF2;
+}
+
+.icons i{
+  padding: 0 0.5rem;
+}
+
+.text-container {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+.bottom {
+  height: 3.625rem;
+  display: flex;
+}
+.sections-container {
+  padding-left: 8.9rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.sections-container ul {
+  display: flex;
+  justify-content: center;
+}
+
+.section {
+  padding: 0 1rem;
+}
+
+.section a:hover {
+  color: #222283;
+  transition: all 0.1s ease-out;
+}
+
+.sections-container a {
+  color: #767676;
+  font-weight: 300;
+  font-size: .87rem;
+  text-decoration: none;
+}
+
+#resume {
+  border-bottom: 4px solid #4686F1;
+}
+
+#resume a {
+  color: #4686F1;
+  font-weight: bold;
+}
+
+.google-services {
+  display: flex;
+  padding: 0 1.875rem; 
+}
