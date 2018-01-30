@@ -209,3 +209,15 @@ padding-top: 3rem;
   justify-content: center;
   align-items: center;
 }
+
+.languages {
+  padding-bottom: 2rem;
+}
+
+.list-group-item .search-time{
+  height: auto;
+}
+
+.col-lg-5 {
+  padding-top: 3rem;
+}
