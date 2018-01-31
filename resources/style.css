@@ -199,8 +199,7 @@ padding-top: 3rem;
 }
 
 .fa-heart,
-.fa-angle-left,
-.fa-angle-right {
+#copy {
   color:#960030;
 }
 
@@ -229,4 +228,38 @@ padding-top: 3rem;
 }
 #info {
   width: 100%;
+}
+
+#mobile {
+  display: none;
+}
+@media only screen and (max-width: 500px) {
+  .sections-container {
+    padding-left: 0rem;
+    }
+
+  .main-content {
+    padding: 1rem;
+  }
+
+   header {
+    display: none;
+
+  }
+
+  .about-me {
+    display: top;
+  }
+
+  #mobile {
+    display: grid;
+  }
+
+  #about-me {
+    display: none;
+  }
+  .search-time {
+    display: none;
+  }
+
 }
