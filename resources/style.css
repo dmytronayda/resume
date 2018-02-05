@@ -239,6 +239,7 @@ padding-top: 3rem;
     padding-left: 0rem;
     }
 
+
   .main-content {
     padding: 1rem;
   }
@@ -249,6 +250,7 @@ padding-top: 3rem;
   }
   #mobile {
     display: grid;
+    padding: 0 1rem;
   }
 
   #about-me {
