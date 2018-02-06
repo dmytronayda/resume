@@ -122,7 +122,7 @@ ul {
 /* Main container  */
 
 .main-content {
-  padding: 0 9.9rem;
+  padding: 0 8.9rem;
 }
 
 .search-time {
@@ -241,6 +241,11 @@ footer .container-fluid {
   display: none;
 }
 
+footer {
+  text-align: center;
+  padding-top: 2rem;
+}
+
 @media only screen and (max-width: 480px) {
   .sections-container {
     padding: 0;
@@ -294,6 +299,6 @@ footer .container-fluid {
     height: 100%;
   }
   .copyrights {
-    padding-top: 2rem; 
+    padding-top: 1.2rem;
   }
 }
