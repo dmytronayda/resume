@@ -237,7 +237,7 @@ footer .container-fluid {
   width: 100%;
 }
 
-#mobile {
+#mobile{
   display: none;
 }
 
@@ -262,14 +262,17 @@ footer .container-fluid {
     padding-top: 10px;
   }
   .main-content {
-    padding: 1rem;
+    display: grid;
+    padding: 0;
+    width: 100%;
   }
   header {
     display: none;
   }
   #mobile {
     display: grid;
-    padding: 0 1rem;
+  }
+  .panel-heading {
     overflow: hidden;
   }
   #about-me {
@@ -283,15 +286,14 @@ footer .container-fluid {
     display: flex;
     justify-content: center;
   }
-  /* #google-logo img {
-    width: 4.5rem;
-  } */
+
   #about-me-top {
     padding-top: 1rem;
   }
   .bottom {
     height: 100%;
   }
-
+  .copyrights {
+    padding-top: 2rem; 
   }
 }
