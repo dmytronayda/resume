@@ -10,21 +10,47 @@ h2 {
   font-size: 1.25rem;
 }
 
-.header-container {
-  display: flex;
-  flex-direction: column;
+header{
   background-color: #FAFAFA;
   height: 7.25rem;
   border-bottom: .3px solid #D7D7D7;
+  padding: 1rem 0;
 }
 
-.top {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 2rem 0.8rem;
+.header-container {
+  height: 3.25rem;
 }
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 6rem;
+}
+
+i {
+  color: #281CAC;
+}
+#search-container {
+  max-width: 37.5rem;
+  max-height: 3rem;
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 0.6rem 0.6rem;
+  margin-left: 0.6rem;
+  background-color: white;
+}
+.overflow-ellipsis {
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+  padding: 0 5px;
+}
+
+.search-icon {
+  display: flex;
+  justify-content: flex-end;
+}
+
 
 .logo-and-search {
   display: flex;
@@ -45,7 +71,7 @@ h2 {
   display: flex;
   align-items: center;
   border: 0.4px solid #B6B6B6;
-  width: 37.5rem;
+  max-width: 37.5rem;
   padding: 0.6rem 0.6rem;
   margin-left: 0.6rem;
   box-shadow: 0px 3px 10px 1px #C9C9C9;
@@ -117,7 +143,7 @@ h2 {
 
 ul {
   height: 100%;
-}
+} */
 
 /* Main container  */
 
@@ -224,8 +250,8 @@ footer .container-fluid {
   height: auto;
 }
 
-.col-lg-5 {
-  padding-top: 3rem;
+#about-me {
+  padding-top: 4rem;
   padding-left: 1.5rem;
 }
 
@@ -237,68 +263,25 @@ footer .container-fluid {
   width: 100%;
 }
 
-#mobile{
+#mobile {
   display: none;
 }
 
 footer {
   text-align: center;
-  padding-top: 2rem;
 }
 
-@media only screen and (max-width: 480px) {
-  .sections-container {
-    padding: 0;
-    margin: 0;
-    width: 100%;
-  }
+.panel .panel-default {
+  display: none;
+}
 
- ul .sections {
-    padding: 0;
-      width: 100%;
-    overflow: hidden;
-  }
+.google-services {
+  display: flex;
+  justify-content: flex-end;
+}
 
-  #underline {
-    border-radius: 0;
-  }
-
-  .panel-body {
-    padding-top: 10px;
-  }
-  .main-content {
-    display: grid;
-    padding: 0;
-    width: 100%;
-  }
-  header {
+@media only screen and (max-width: 1200px) {
+  .google-services {
     display: none;
-  }
-  #mobile {
-    display: grid;
-  }
-  .panel-heading {
-    overflow: hidden;
-  }
-  #about-me {
-    display: none;
-  }
-  .search-time {
-    display: none;
-  }
-  #google-logo {
-    padding: 0.5rem 0;
-    display: flex;
-    justify-content: center;
-  }
-
-  #about-me-top {
-    padding-top: 1rem;
-  }
-  .bottom {
-    height: 100%;
-  }
-  .copyrights {
-    padding-top: 1.2rem;
   }
 }
