@@ -272,7 +272,35 @@ footer {
   display: flex;
   justify-content: flex-end;
 }
+.tabs ul{
+  display: flex;
+  justify-content: space-between;
+}
 
+.tabs a {
+  color: #767676;
+  font-size: .87rem;
+}
+
+#strong a {
+  font-weight: bold;
+  color: #2374E5;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.btn {
+  padding: 0.8rem;
+}
+
+.btn a {
+  text-decoration: none;
+  color: white; 
+}
 
 @media only screen and (max-width: 1200px) {
   .google-services {
@@ -294,7 +322,7 @@ footer {
     text-overflow: ellipsis;
   }
   header {
-    height: 8.5rem; 
+    height: 8.5rem;
   }
   #image {
     display: flex;
@@ -303,6 +331,9 @@ footer {
     padding-bottom: 1rem;
   }
   .search-time {
+    display: none;
+  }
+  .tabs {
     display: none;
   }
 }
