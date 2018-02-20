@@ -16,7 +16,9 @@ header{
   border-bottom: .3px solid #D7D7D7;
   padding: 1rem 0;
 }
-
+span {
+  text-overflow: ellipsis;
+}
 .header-container {
   height: 3.25rem;
 }
@@ -37,10 +39,11 @@ i {
   white-space: nowrap;
   overflow: hidden;
   padding: 0.6rem 0.6rem;
-  margin-left: 0.6rem;
   background-color: white;
 }
-.overflow-ellipsis {
+
+
+#overflow-ellipsis {
   overflow-x: hidden;
   text-overflow: ellipsis;
   padding: 0 5px;
@@ -65,18 +68,6 @@ i {
 
 .logo img {
   max-width: 7.5rem;
-}
-
-.search-container {
-  display: flex;
-  align-items: center;
-  border: 0.4px solid #B6B6B6;
-  max-width: 37.5rem;
-  padding: 0.6rem 0.6rem;
-  margin-left: 0.6rem;
-  box-shadow: 0px 3px 10px 1px #C9C9C9;
-  border-radius: 2px;
-  background-color: white;
 }
 
 .icons {
@@ -266,7 +257,9 @@ footer .container-fluid {
 #mobile {
   display: none;
 }
-
+#about-me-mobile {
+  display: none;
+}
 footer {
   text-align: center;
 }
@@ -280,8 +273,36 @@ footer {
   justify-content: flex-end;
 }
 
+
 @media only screen and (max-width: 1200px) {
   .google-services {
+    display: none;
+  }
+  #about-me {
+    display: none;
+  }
+  #about-me-mobile {
+    display: grid;
+    padding-top: 1rem;
+  }
+  #search-container i {
+    display: none;
+  }
+  #search-container span{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  header {
+    height: 8.5rem; 
+  }
+  #image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+  }
+  .search-time {
     display: none;
   }
 }
